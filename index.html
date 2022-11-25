@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>妈妈生日快乐</title>
+    <meta name="description" content="优雅、美丽、时尚的妈妈祝您生日快乐">
+    <meta name="keywords" content="吹落了思乡的尘，却吹不走额头的纹，走完了天下
+    的路，忘不了回家的门。辛苦了，我亲爱的妈妈，生日快乐！健康平安！">
+
+    <style>
+        
+        div div img{
+            opacity: 0.7;
+            width: 30px;
+            height: 20px;
+        }
+        .box{
+            width: 400px;
+            height: 600px;
+            position: relative;
+        }
+        .one{
+            position:absolute;
+            left:180px;
+            top: 150px;
+            opacity: 0.1;
+            animation:sr1 3s linear 2.5s;
+            animation-fill-mode:forwards;
+        }
+        @keyframes sr1{
+            0%{
+                opacity: 0.15;
+            }
+            100%{
+                position:absolute;
+                left: 180px;
+                top:150px;
+                opacity: 1;
+                transform: scale(20);
+            }
+        }
+        
+        .twe{
+            position: absolute;
+            top:580px;
+            left:180px;
+            animation:sr2 3s linear;
+            animation-fill-mode: forwards;
+        }
+        @keyframes sr2{
+            0%{
+                opacity: 1;
+            }
+            80%{
+
+            }
+            100%{
+                opacity: 0.1;
+                position: absolute;
+                top:150px;
+                transform: scale(0.2);
+            }
+        }
+        .theer{
+            position:absolute;
+            top:130px;
+            left: 180px;
+            opacity: 0.1;
+            animation:sr3 3s linear 3.5s;
+            animation-fill-mode:forwards;
+            
+        }
+        @keyframes sr3{
+            0%{
+                opacity: 0.1;
+            }
+            100%{
+                position:absolute;
+                left: 180px;
+                top:130px;
+                transform: scale(12);
+                opacity: 0.7;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: #000">
+    <div class="box">
+        <div class="one">
+            <img src="./烟花.jpg">
+        </div>
+        <div class="twe">
+            <img src="./爆竹1.jpg">
+        </div>
+        <div class="theer">
+            <img src="./生日快乐2.jpg">
+        </div>
+    </div>
+</body>
+</html>
